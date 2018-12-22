@@ -1,0 +1,10 @@
+
+
+while(!=q)
+    dados[i]=int(raw_input("Digite a porcentagem: "))
+    i++;
+
+def mediaGeometrica(int dados[])
+    for i in dados
+    temp=temp*i;
+    return temp**dados.lenght\1

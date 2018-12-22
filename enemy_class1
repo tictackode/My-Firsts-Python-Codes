@@ -1,0 +1,13 @@
+
+# exemplo de classe inimigo
+ class Enemy:
+	nome=None
+	life=None
+	ataque=None
+	def init(self,nome,life,ataque):
+		self.nome=nome
+		self.life=life
+		self.ataque=ataque
+	def showStats(self):
+		print self.nome,"Life: ",self.life,"Ataque: ",self.ataque
+ 
